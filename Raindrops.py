@@ -1,11 +1,11 @@
 def raindrops(number):
-    statement = ''
+    string = ''
     if number % 3 == 0:
-        statement += 'Pling'
+        string += 'Pling'
     if number % 5 == 0:
-        statement += 'Plang'
+        string += 'Plang'
     if number % 7 == 0:
-        statement += 'Plong'
-    if len(statement) == 0:
-        statement += str(number)
-    return statement
+        string += 'Plong'
+    if len(string) == 0:
+        string += str(number)
+    return string
