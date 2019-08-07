@@ -25,3 +25,13 @@ Write a function that takes as its input a number (n) and converts it to a strin
 - 30's factors are 1, 2, 3, 5, 6, 10, 15, 30: this would be a 'PlingPlang'
 
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
+
+
+## Testing Framework
+
+- To run the tests I have imported Unittest to run my test cases.
+
+##How to run the test
+
+- To test within Pycharm, you can right click and select "Run unittest for pycharm_unittest.py"
+- To run the test within a command line you can use the "python -m unittest Raindrops_Unittest.py" command. This will output all tests within the document
